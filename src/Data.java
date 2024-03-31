@@ -14,11 +14,11 @@ public class Data {
         int C=ss.countTokens();    //finding number of words in the tokenizer object 'ss'
         System.out.println("Output sentence = "+Str);
         System.out.println("Number of tokens or words in the sentence = "+C);
-        System.out.println("Word \t\t Number of characters");
+        System.out.printf("%-20s %s%n","Word","Number of characters");
         while(ss.hasMoreTokens()) {
             String wrd=ss.nextToken();  //extracts word from 'ss' and stores in string variable 'wrd'
             int len=wrd.length();       //finding length of word stored in 'wrd' to compute no of letters
-            System.out.println(wrd+"\t\t\t"+len); //print the word (wrd) and its length(len)
+            System.out.printf("%-20s %d%n",wrd,len); //print the word (wrd) and its length(len)
         }
     }
     public static void main(String[] args) {
