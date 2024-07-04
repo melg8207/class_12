@@ -1,6 +1,5 @@
 import java.util.Scanner;
-public class WondrousSquare
-{
+public class WondrousSquare {
     public static void main(String[]args) {
         Scanner in=new Scanner(System.in);
         System.out.print("Enter n: ");
@@ -28,8 +27,7 @@ public class WondrousSquare
         boolean wondrous=isWondrous(a);
         if(wondrous) {
             System.out.println("Yes, it represents a wondrous square");
-        }
-        else {
+        }else {
             System.out.println("Not a wondrous square");
         }
     }
@@ -41,7 +39,7 @@ public class WondrousSquare
          * seenArr is used to check that
          * numbers are not repeated
          */
-        boolean[] seenArr =new boolean[nSq];
+        boolean[] seenArr=new boolean[nSq];
         for(int i=0;i<n;i++) {
             int rSum=0,cSum=0;
             for(int j=0;j<n;j++) {

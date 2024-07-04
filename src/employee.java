@@ -1,17 +1,17 @@
-class Employee {
+class employee {
     // Data members/instance variables
     String empName; // to store the name of the employee
     int empCode;    // to store the employee code
     double basicPay;    // to store the basic pay of the employee
     // Constructors
     // Default constructor
-    Employee() {
+    employee() {
         empName="";
         empCode=0;
         basicPay=0.0;
     }
     // Parameterized constructor
-    Employee(String n,int p,double q) {
+    employee(String n, int p, double q) {
         empName=n;
         empCode=p;
         basicPay=q;
@@ -37,12 +37,12 @@ class Employee {
     }
     public static void main(String[] args) {
         // Creating objects and calling methods
-        Employee emp1=new Employee(); // Default constructor
+        employee emp1=new employee(); // Default constructor
         emp1.empName="John";
         emp1.empCode=10;
         emp1.basicPay=20000;
-        System.out.println("Total Salary for Employee 1: "+emp1.salaryCal());
-        Employee emp2=new Employee("Alice",20,18000); // Parameterized constructor
-        System.out.println("Total Salary for Employee 2: "+emp2.salaryCal());
+        System.out.println("Total Salary for employee 1: "+emp1.salaryCal());
+        employee emp2=new employee("Alice",20,18000); // Parameterized constructor
+        System.out.println("Total Salary for employee 2: "+emp2.salaryCal());
     }
 }

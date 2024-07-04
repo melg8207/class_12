@@ -1,16 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTreeColorHighlighter">
-    <files />
+    <files>
+      <node color="2" path="$PROJECT_DIR$/.gitignore" />
+      <node color="7" path="$PROJECT_DIR$/.idea" />
+      <node color="2" path="$PROJECT_DIR$/class12.iml" />
+      <node color="9" path="$PROJECT_DIR$/src" />
+      <node color="9" path="$PROJECT_DIR$/src/Binary.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Calculate.java" />
+      <node color="9" path="$PROJECT_DIR$/src/Change.java" />
+      <node color="9" path="$PROJECT_DIR$/src/CompositeMagic.java" />
+      <node color="9" path="$PROJECT_DIR$/src/Data.java" />
+      <node color="9" path="$PROJECT_DIR$/src/DaysBetweenDates.java" />
+      <node color="9" path="$PROJECT_DIR$/src/DDArray.java" />
+      <node color="9" path="$PROJECT_DIR$/src/DudeneyNumber.java" />
+      <node color="9" path="$PROJECT_DIR$/src/Employee.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Employee2.java" />
+      <node color="9" path="$PROJECT_DIR$/src/FiboString.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Hcf.java" />
+      <node color="9" path="$PROJECT_DIR$/src/Library.java" />
+      <node color="9" path="$PROJECT_DIR$/src/MatrixRotation.java" />
+      <node color="9" path="$PROJECT_DIR$/src/MyString.java" />
+      <node color="9" path="$PROJECT_DIR$/src/odious.java" />
+      <node color="9" path="$PROJECT_DIR$/src/PalindromeNumber.java" />
+      <node color="9" path="$PROJECT_DIR$/src/PalindromeWord.java" />
+      <node color="9" path="$PROJECT_DIR$/src/PalindromeWord2.java" />
+      <node color="9" path="$PROJECT_DIR$/src/Point.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Result.java" />
+      <node color="9" path="$PROJECT_DIR$/src/Revstr.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Salary.java" />
+      <node color="9" path="$PROJECT_DIR$/src/SentenceAnalyzer.java" />
+      <node color="9" path="$PROJECT_DIR$/src/SmallestInteger.java" />
+      <node color="9" path="$PROJECT_DIR$/src/SmithNumber.java" />
+      <node color="9" path="$PROJECT_DIR$/src/sorter.java" />
+      <node color="9" path="$PROJECT_DIR$/src/SquareMatrix.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Student.java" />
+      <node color="9" path="$PROJECT_DIR$/src/Transarray.java" />
+      <node color="9" path="$PROJECT_DIR$/src/TriangleMatrix.java" />
+      <node color="9" path="$PROJECT_DIR$/src/WondrousSquare.java" />
+      <node color="9" path="$PROJECT_DIR$/src/WordSort.java" />
+    </files>
     <colors>
-      <color id="1" value="#4f060d" name="Color 1" enabled="true" />
-      <color id="2" value="#44220e" name="Color 2" enabled="true" />
-      <color id="3" value="#3f371b" name="Color 3" enabled="true" />
-      <color id="4" value="#162c16" name="Color 4" enabled="true" />
-      <color id="5" value="#0f2f47" name="Color 5" enabled="true" />
-      <color id="6" value="#171a34" name="Color 6" enabled="true" />
-      <color id="7" value="#311333" name="Color 7" enabled="true" />
-      <color id="8" value="#1e1e1e" name="Color 8" enabled="true" />
+      <color id="1" value="#335e5e" name="Color 1" enabled="true" />
+      <color id="2" value="#32524b" name="Color 2" enabled="true" />
+      <color id="3" value="#5d5a46" name="Color 3" enabled="true" />
+      <color id="4" value="#0e6f0a" name="Color 4" enabled="true" />
+      <color id="5" value="#083950" name="Color 5" enabled="true" />
+      <color id="6" value="#751719" name="Color 6" enabled="true" />
+      <color id="7" value="#4f3c4f" name="Color 7" enabled="true" />
+      <color id="8" value="#8b8f59" name="Color 8" enabled="true" />
+      <color id="9" value="#3d4f5e" name="Color 9" enabled="true" />
+      <color id="10" name="Color 10" />
+      <color id="11" name="Color 11" />
+      <color id="12" name="Color 12" />
+      <color id="13" name="Color 13" />
+      <color id="14" name="Color 14" />
+      <color id="15" name="Color 15" />
+      <color id="16" name="Color 16" />
     </colors>
     <option name="marksForCollapsedHighlights" value="Dots" />
   </component>
