@@ -5,7 +5,7 @@ public class Student {
         idno=0;
     }
     Student(int nr,int ni) {
-        nr=rollno;
-        ni=idno;
+        rollno=nr;
+        idno=ni;
     }
 }
