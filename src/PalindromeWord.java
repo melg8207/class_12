@@ -21,7 +21,6 @@ public class PalindromeWord {
         String longestPalindromeWords=findLongestPalindrome(st);
         System.out.println("LONGEST PALINDROME WORDS: "+longestPalindromeWords);
     }
-
     private static String findLongestPalindrome(StringTokenizer st) {
         String longest="";
         int maxLength=0;
@@ -38,7 +37,6 @@ public class PalindromeWord {
         }
         return longest;
     }
-
     private static boolean isPalindrome(String word) {
         int i=0;
         int j=word.length()-1;

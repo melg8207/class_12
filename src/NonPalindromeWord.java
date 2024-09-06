@@ -1,5 +1,5 @@
 import java.util.*;
-public class PalindromeWord2 {
+public class NonPalindromeWord {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a sentence in UPPERCASE terminated by '.', '?' or '!': ");
@@ -12,6 +12,8 @@ public class PalindromeWord2 {
         // Task 1: Display the count of non-palindromic words
         sentence=sentence.replaceAll("[.!?]$","");
         StringTokenizer st=new StringTokenizer(sentence," ");
+
+        sentence=sentence.toLowerCase();
         int countNonPalindromic=countNonPalindromicWords(st);
         System.out.println("NUMBER OF NON-PALINDROMIC WORDS: "+countNonPalindromic);
         // Task 2: Display all non-palindromic words

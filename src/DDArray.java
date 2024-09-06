@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class DDArray {
+public class DDArray {
     private final int[][] mat;
     private final int m,n;
     static Scanner sc=new Scanner(System.in);
@@ -42,13 +42,20 @@ class DDArray {
     }
     // Method to print matrix
     public void Show_Mats() {
-        System.out.println("Matrix of "+m+" x "+n+" order:");
+        System.out.println("Matrix of "+m+"x"+n+" order:");
+        for(int i=0;i<m;i++) {
+            for(int j=0;j<n;j++) {
+                System.out.print(mat[i][j]+"\t");
+            }
+            System.out.println();
+        }
+        System.out.println("Inner elements of matrix in matrix form: ");
         for(int i=0;i<m;i++) {
             for(int j=0;j<n;j++) {
                 if(i==0||i==m-1||j==0||j==n-1) {
-                    System.out.print(mat[i][j]+" ");
+                    System.out.print("\t");
                 }else {
-                    System.out.print("  ");
+                    System.out.print(mat[i][j]+"\t");
                 }
             }
             System.out.println();

@@ -13,7 +13,7 @@ public class PalindromeNumber {
         while (steps<15) {
             int reverse=reverseNumber(palindrome);
             int sum=palindrome+reverse;
-            if(isPalindrome(sum)) {
+            if(sum==reverseNumber(sum)) {
                 System.out.println("Original Number: "+num);
                 System.out.println("Palindrome Number: "+sum);
                 System.out.println("Found in Step: "+(steps+1));
@@ -27,14 +27,11 @@ public class PalindromeNumber {
     }
     public static int reverseNumber(int num) {
         int reverse=0;
-        while (num!=0) {
+        while(num!=0) {
             int digit=num%10;
             reverse=reverse*10+digit;
             num/=10;
         }
         return reverse;
-    }
-    public static boolean isPalindrome(int num) {
-        return num==reverseNumber(num);
     }
 }
