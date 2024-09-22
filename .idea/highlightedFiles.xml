@@ -6,6 +6,8 @@
       <node color="7" path="$PROJECT_DIR$/.idea" />
       <node color="2" path="$PROJECT_DIR$/class12.iml" />
       <node color="9" path="$PROJECT_DIR$/src" />
+      <node color="5" path="$PROJECT_DIR$/src/Account.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Bank.java" />
       <node color="9" path="$PROJECT_DIR$/src/Binary.java" />
       <node color="5" path="$PROJECT_DIR$/src/Calculate.java" />
       <node color="9" path="$PROJECT_DIR$/src/Change.java" />
