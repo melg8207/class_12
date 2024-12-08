@@ -57,7 +57,7 @@ public class VampireNumber {
         int m=sc.nextInt();
         System.out.print("Last limit: ");
         int n=sc.nextInt();
-        if(m<=1000||n>=10000)                       //checking range within 1000 < x < 10000
+        if(m<1000||n>=10000)                       //checking range within 1000 < x < 10000
             System.out.println("INVALID INPUT! Enter range between 1000 and 10000.");
         else if(m>n)                                //checking the first number is not greater than last
             System.out.println("INVALID INPUT!");

@@ -4,7 +4,7 @@ public class TwistedPrime {
         if(n<=1)
             return false;
         for(int i=2;i<n;i++) {
-            if(n%i==0)              //if divisible by any other number than 1 and itself then it's not prime
+            if(n%i==0)              //if divisible by any other number than 1 and itself, then it's not prime
                 return false;
         }
         return true;
