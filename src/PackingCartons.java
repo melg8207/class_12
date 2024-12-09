@@ -2,7 +2,7 @@ import java.util.*;
 public class PackingCartons {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter number of boxes to be packed (max 1000): ");
+        System.out.print("Enter number of boxes to be packed (max 1000): ");
         int N= sc.nextInt();
         if(N<1||N>1000) {
             System.out.println("Invalid Input! Enter a number between 1 and 1000.");

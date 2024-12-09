@@ -1,5 +1,5 @@
 import java.util.*;
-class FiboString {
+public class FiboString {
     private final String x; // to store the first string
     private String y; // to store the second string
     private String z; // to store the concatenation of the previous two strings
