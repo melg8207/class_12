@@ -1,5 +1,5 @@
 class employee {
-    // Data members/instance variables
+    // strings.str_007.Data members/instance variables
     String empName; // to store the name of the employee
     int empCode;    // to store the employee code
     double basicPay;    // to store the basic pay of the employee

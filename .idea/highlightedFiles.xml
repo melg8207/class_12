@@ -28,12 +28,14 @@
       <node color="9" path="$PROJECT_DIR$/src/PalindromeWord.java" />
       <node color="9" path="$PROJECT_DIR$/src/PalindromeWord2.java" />
       <node color="9" path="$PROJECT_DIR$/src/Point.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Point2.java" />
       <node color="5" path="$PROJECT_DIR$/src/Product.java" />
       <node color="5" path="$PROJECT_DIR$/src/Result.java" />
       <node color="9" path="$PROJECT_DIR$/src/Revstr.java" />
       <node color="5" path="$PROJECT_DIR$/src/Salary.java" />
       <node color="5" path="$PROJECT_DIR$/src/Sales.java" />
       <node color="9" path="$PROJECT_DIR$/src/SentenceAnalyzer.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Slope.java" />
       <node color="9" path="$PROJECT_DIR$/src/SmallestInteger.java" />
       <node color="9" path="$PROJECT_DIR$/src/SmithNumber.java" />
       <node color="9" path="$PROJECT_DIR$/src/sorter.java" />
