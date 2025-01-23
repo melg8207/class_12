@@ -1,3 +1,4 @@
+package super_sub_classes.program_05;
 import java.util.*;
 public class Result extends Student {
     static float sub1,sub2,sub3,tot,avg;

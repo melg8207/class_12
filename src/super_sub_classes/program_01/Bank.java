@@ -1,3 +1,4 @@
+package super_sub_classes.program_01;
 import java.util.*;
 public class Bank {
     String Name;
@@ -12,7 +13,7 @@ public class Bank {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter name: ");
         Name=sc.nextLine();
-        System.out.println("Enter Account Number: ");
+        System.out.println("Account Number: ");
         Accno=sc.nextLong();
         System.out.println("Enter Principal Amount: ");
         P=sc.nextDouble();

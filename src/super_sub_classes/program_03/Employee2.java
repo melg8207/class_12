@@ -1,3 +1,4 @@
+package super_sub_classes.program_03;
 public class Employee2 {
     static int empn;
     static double bsal;

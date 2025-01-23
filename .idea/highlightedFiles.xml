@@ -18,11 +18,14 @@
       <node color="9" path="$PROJECT_DIR$/src/DudeneyNumber.java" />
       <node color="9" path="$PROJECT_DIR$/src/Employee.java" />
       <node color="5" path="$PROJECT_DIR$/src/Employee2.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Factorial.java" />
       <node color="9" path="$PROJECT_DIR$/src/FiboString.java" />
       <node color="5" path="$PROJECT_DIR$/src/Hcf.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Highest.java" />
       <node color="9" path="$PROJECT_DIR$/src/Library.java" />
       <node color="9" path="$PROJECT_DIR$/src/MatrixRotation.java" />
       <node color="9" path="$PROJECT_DIR$/src/MyString.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Number2.java" />
       <node color="9" path="$PROJECT_DIR$/src/odious.java" />
       <node color="9" path="$PROJECT_DIR$/src/PalindromeNumber.java" />
       <node color="9" path="$PROJECT_DIR$/src/PalindromeWord.java" />
@@ -30,11 +33,14 @@
       <node color="9" path="$PROJECT_DIR$/src/Point.java" />
       <node color="5" path="$PROJECT_DIR$/src/Point2.java" />
       <node color="5" path="$PROJECT_DIR$/src/Product.java" />
+      <node color="5" path="$PROJECT_DIR$/src/rec.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Record.java" />
       <node color="5" path="$PROJECT_DIR$/src/Result.java" />
       <node color="9" path="$PROJECT_DIR$/src/Revstr.java" />
       <node color="5" path="$PROJECT_DIR$/src/Salary.java" />
       <node color="5" path="$PROJECT_DIR$/src/Sales.java" />
       <node color="9" path="$PROJECT_DIR$/src/SentenceAnalyzer.java" />
+      <node color="5" path="$PROJECT_DIR$/src/Series.java" />
       <node color="5" path="$PROJECT_DIR$/src/Slope.java" />
       <node color="9" path="$PROJECT_DIR$/src/SmallestInteger.java" />
       <node color="9" path="$PROJECT_DIR$/src/SmithNumber.java" />

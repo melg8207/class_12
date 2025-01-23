@@ -1,3 +1,4 @@
+package super_sub_classes.program_08;
 import java.util.*;
 public class Point2 {
     double x1,x2,x3,x4,y1,y2,y3,y4;

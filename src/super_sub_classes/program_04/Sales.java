@@ -1,3 +1,4 @@
+package super_sub_classes.program_04;
 import java.util.*;
 public class Sales extends Product {
     int day;

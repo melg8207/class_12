@@ -1,3 +1,4 @@
+package super_sub_classes.program_08;
 public class Slope extends Point2 {
     double m1,m2;
     void findSlope() {

@@ -1,3 +1,4 @@
+package super_sub_classes.program_02;
 public class Hcf extends Calculate {
     int h;
     void findhcf(int num1,int num2) {

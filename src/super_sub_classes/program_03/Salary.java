@@ -1,5 +1,6 @@
+package super_sub_classes.program_03;
 import java.util.*;
-public class Salary extends Employee2{
+public class Salary extends Employee2 {
     static float da,hra,spl;
     static double tsal;
     Salary() {

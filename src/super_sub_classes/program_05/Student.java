@@ -1,3 +1,4 @@
+package super_sub_classes.program_05;
 public class Student {
     int rollno,idno;
     Student() {

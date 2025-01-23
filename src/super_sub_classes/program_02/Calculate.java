@@ -1,3 +1,4 @@
+package super_sub_classes.program_02;
 import java.util.Scanner;
 public class Calculate {
     static int n1,n2;
