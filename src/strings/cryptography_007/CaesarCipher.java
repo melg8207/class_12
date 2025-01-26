@@ -1,4 +1,4 @@
-package strings.str_007;
+package strings.cryptography_007;
 import java.util.*;
 public class CaesarCipher {
     //shifting each letter by specified no of positions

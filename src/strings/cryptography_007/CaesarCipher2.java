@@ -1,4 +1,4 @@
-package strings.str_007;
+package strings.cryptography_007;
 import java.util.*;
 public class CaesarCipher2 {
     public static void main(String[] args) {
