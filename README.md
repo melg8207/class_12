@@ -8,21 +8,25 @@
      |- Double dimensional
      |- Single Dimensional
      |- String Arrays
+     
    - data structures
      |- Linked List
      |- Queues
      |- Stacks
+     
    - numbers
      |- Pure Numbers
      |- Recursive
      |- Series
+     
    - strings
      |- Cryptographic
      |- Recursive
      |- Pure Strings
-   - Inheritance
+     
+   - Inheritance (Mostly Application Based Programs)
   
-   Application Based Programs are not under any package.
+   Other Application Based Programs which do not use inheritance are not under any package.
 
 project link on github: https://github.com/melg8207/class_12.git
 link to codespace: https://silver-space-garbanzo-5gqqxvwj9p7qfp464.github.dev/
