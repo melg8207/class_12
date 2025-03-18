@@ -24,7 +24,7 @@
      |- Recursive
      |- Pure Strings
      
-   - Inheritance (Mostly Application Based Programs)
+   - super_sub_classes - classes using inheritance (Mostly Application Based Programs)
   
    Other Application Based Programs which do not use inheritance are not under any package.
 
