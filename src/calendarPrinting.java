@@ -1,60 +1,54 @@
-import java.util.*;
 /**
  * Write a program to accept the year, month and the weekday name of the 1st day of
  that month and generate its calendar.
  Example:
- INPUT : 
- Year : 2016
- Month : February
+ INPUT:
+ Year: 2016
+ Month: February
  1st day of February: Monday
 
  OUTPUT :
  -------------------------------------------
                 February 2016
  -------------------------------------------
- SUN    MON   TUE   WED   THU   FRI   SAT
+  SUN    MON   TUE   WED   THU   FRI   SAT
  -------------------------------------------
- 1      2      3     4     5     6
+         1      2      3     4     5     6
  -------------------------------------------
- 7      8      9     10    11    12    13
+  7      8      9     10    11    12    13
  -------------------------------------------
- 14     15     16    17    18    19    20
+  14     15     16    17    18    19    20
  -------------------------------------------
- 21     22     23    24    25    26    27
+  21     22     23    24    25    26    27
  -------------------------------------------
- 28     29
+  28     29
  -------------------------------------------
  */
+import java.util.*;
 public class calendarPrinting {
     static Scanner in=new Scanner(System.in);
     public static void main (String[] args) {
-        System.out.print("Year  :");
+        System.out.print("Year: ");
         String Year=in.nextLine();
-        System.out.print("Month  :");
+        System.out.print("Month: ");
         String Month=in.nextLine();
-        System.out.print("1st day of "+Month+"  :");
+        System.out.print("1st day of "+Month+": ");
         String day=in.nextLine();
-        boolean leap=false;int j=0;
-        if(Integer.parseInt(Year)%4==0)
-            leap=true;
+        boolean leap=Integer.parseInt(Year)%4==0;
         int[] Days={31,28,31,30,31,30,31,31,30,31,30,31};
         String[] Months={"January","February","March","April","May","June",
                 "July","August","September","October","November","December"};
+        // Using a HashMap to map days to their indices
+        Map<String,Integer> dayIndex=new HashMap<>();
+        dayIndex.put("Sunday",0);
+        dayIndex.put("Monday",1);
+        dayIndex.put("Tuesday",2);
+        dayIndex.put("Wednesday",3);
+        dayIndex.put("Thursday",4);
+        dayIndex.put("Friday",5);
+        dayIndex.put("Saturday",6);
+        int j=dayIndex.getOrDefault(day,0);
         int[][] calendar=new int[5][7];
-        if(day.equalsIgnoreCase("Sunday"))
-            j=0;
-        else if(day.equalsIgnoreCase("Monday"))
-            j=1;
-        else if(day.equalsIgnoreCase("Tuesday"))
-            j=2;
-        else if(day.equalsIgnoreCase("Wednesday"))
-            j=3;
-        else if(day.equalsIgnoreCase("Thursday"))
-            j=4;
-        else if(day.equalsIgnoreCase("Friday"))
-            j=5;
-        else if(day.equalsIgnoreCase("Saturday"))
-            j=6;
         String row1="";int count=1;
         for(int i=0;i<7;i++) {
             if(i==j) {
@@ -92,23 +86,22 @@ public class calendarPrinting {
                     calendar[i][k]=0;
             }
         }
-        System.out.println
-                ("--------------------------------------\n" +
-                        "         "+Month+" "+Year+"\n" +
-                        "--------------------------------------\n" +
+        System.out.println("--------------------------------------------------------\n"+
+                        "                   "+Month+" "+Year+"\n"+
+                        "--------------------------------------------------------\n"+
                         //"SUN    MON   TUE   WED   THU   FRI   SAT\n" +
-                        "SUN\tMON\tTUE\tWED\tTHU\tFRI\tSAT\n"+
-                        "--------------------------------------");
+                        "\tSUN\t\tMON\t\tTUE\t\tWED\t\tTHU\t\tFRI\t\tSAT\t\n"+
+                        "--------------------------------------------------------");
         for(int i=0;i<5;i++){
             for(int k=0;k<7;k++){
                 if(calendar[i][k]!=0){
-                    System.out.print(calendar[i][k]+"\t");
+                    System.out.print("\t"+calendar[i][k]+"\t");
                 }
                 else
-                    System.out.print("  "+"\t");
+                    System.out.print("  "+"\t\t");
             }
             System.out.print("\n");
         }
-        System.out.print("--------------------------------------");
+        System.out.print("------------------------------------------------------");
     }
 }
