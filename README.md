@@ -17,10 +17,12 @@
      |- Recursive
      |- Series
    - strings
+     |- Cryptographic
      |- Recursive
      |- Pure Strings
+   - Inheritance
   
-   Application Based Programs and programs involving inheritance (all super classes and subclasses) are not under any package.
+   Application Based Programs are not under any package.
 
 project link on github: https://github.com/melg8207/class_12.git
 link to codespace: https://silver-space-garbanzo-5gqqxvwj9p7qfp464.github.dev/
