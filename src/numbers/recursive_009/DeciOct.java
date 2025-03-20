@@ -1,4 +1,5 @@
 package numbers.recursive_009;
+import java.util.*;
 public class DeciOct {
     int n,oct;
     DeciOct() {
@@ -18,12 +19,15 @@ public class DeciOct {
     }
     void display() {
         deci_oct();
-        System.out.println("Decimal: "+n+"\tOctal: "+oct);
+        System.out.println("Decimal: "+n+"\nOctal: "+oct);
     }
     public static void main(String[] args) {
-        DeciOct ob1=new DeciOct();
-        DeciOct ob2=new DeciOct(25);
+        DeciOct obj=new DeciOct();
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter Decimal number to convert it to Octal: ");
+        obj.n=sc.nextInt();
+        System.out.println();
+        DeciOct ob1=new DeciOct(obj.n);
         ob1.display();
-        ob2.display();
     }
 }
