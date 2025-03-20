@@ -1,15 +1,15 @@
 import java.io.*;
-class framework {
+public class framework {
     database database;
-    framework() {
+    public framework() {
         database=new database();
     }
-    void uploadChanges() throws IOException {
-        try (ObjectOutputStream out=new ObjectOutputStream(new FileOutputStream("bankDatabase.txt"))) {
+    public void uploadChanges() throws IOException {
+        try(ObjectOutputStream out=new ObjectOutputStream(new FileOutputStream("bankDatabase.txt"))) {
             out.writeObject(database);
         }
     }
-    void init() throws IOException, ClassNotFoundException {
+    public void init() throws IOException,ClassNotFoundException {
         File file=new File("bankDatabase.txt");
         if(!file.exists()) {
             database=new database();

@@ -16,7 +16,7 @@ public class Binary {
         if(n==0) {
             return 0;
         }else {
-            return (n % 10)+2*convertDec(n/10);
+            return (n%10)+2*convertDec(n/10);
         }
     }
     void Show() {

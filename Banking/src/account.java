@@ -1,17 +1,17 @@
 import java.io.*;
 import java.util.*;
-class account implements Serializable {
+public class account implements Serializable {
     @Serial
     private static final long serialVersionUID=1L;
     String name,id,transactionHistory;
     String balance;
-    account() {
+    public account() {
         name="";
         id="";
         transactionHistory=String.format("%-15s%-15s%-15s%-15s\n","Action","Debit","Credit","Balance");
         balance="0";
     }
-    void initialize(database db) throws IOException {
+    public void initialize(database db) {
         Scanner in=new Scanner(System.in);
         System.out.println("Enter your Details");
         System.out.print("Name: ");

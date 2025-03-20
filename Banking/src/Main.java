@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 public class Main {
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException,ClassNotFoundException {
         String id="";
         int failsafe=0;
         // Check if idthreshold.txt exists; if not, create it with default value "0"
@@ -30,13 +30,13 @@ public class Main {
         boolean flag=true;
         Scanner in=new Scanner(System.in);
         while(flag) {
-            System.out.print("Are you a new User? (yes/no): ");
+            System.out.print("Are you a new user? (yes/no): ");
             String temp=in.next();
             if(temp.equalsIgnoreCase("yes")) {
                 ac=new account();
                 ac.initialize(f.database);
                 flag=false;
-            }else {
+            }else if(temp.equalsIgnoreCase("no")) {
                 boolean fl=true;
                 Scanner in0=new Scanner(System.in);
                 System.out.print("Enter your ID: ");
@@ -52,6 +52,8 @@ public class Main {
                 }
                 if(fl)
                     System.out.println("NoSuchUser Exception");
+            }else {
+                System.out.println("Invalid Input! Try again.....");
             }
         }
         System.out.println();
