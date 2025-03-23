@@ -1,7 +1,8 @@
-package numbers.recursive_009;
+package numbers.num_009;
 import java.util.*;
 public class DeciOct {
     int n,oct;
+    static Scanner sc=new Scanner(System.in);
     DeciOct() {
         n=0;oct=0;
     }

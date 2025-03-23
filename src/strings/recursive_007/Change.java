@@ -1,4 +1,4 @@
-package strings.str_007;
+package strings.recursive_007;
 import java.util.*;
 public class Change {
     String str;
