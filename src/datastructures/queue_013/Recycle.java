@@ -1,3 +1,6 @@
+/**
+ * Application program based on implementation of Dequeues (Double-ended Queues)
+ */
 package datastructures.queue_013;
 import java.util.*;
 public class Recycle {
@@ -16,14 +19,14 @@ public class Recycle {
     public void pushFront(int v) {
         if(front==0) {
             System.out.println("QUEUE IS FULL FROM THE FRONT");
-        } else {
+        }else {
             ele[--front]=v;
         }
     }
     public int popFront() {
-        if(front==rear)
+        if(front==rear) {
             return -999;
-        else {
+        }else {
             int v=ele[front++];
             if(front==rear) { // Reset when queue becomes empty
                 front=0;
@@ -35,14 +38,14 @@ public class Recycle {
     public void pushRear(int v) {
         if(rear==cap) {
             System.out.println("QUEUE IS FULL FROM THE REAR");
-        } else {
+        }else {
             ele[rear++]=v;
         }
     }
     public int popRear() {
-        if(front==rear)
+        if(front==rear) {
             return -999;
-        else {
+        }else {
             int v=ele[--rear];
             if(front==rear) { // Reset when queue becomes empty
                 front=0;
@@ -108,7 +111,7 @@ public class Recycle {
                     break;
                 case 6:
                     System.out.println("------- END -------");
-                    sc.close(); // Closing scanner to prevent resource leak
+                    sc.close();
                     System.exit(0);
                 default:
                     System.out.println("INVALID CHOICE! TRY AGAIN!");

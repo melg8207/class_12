@@ -4,7 +4,7 @@ public class Stacks {
     int top=-1;
     int size;
     int[] s;
-    Stacks(int size) {
+    public Stacks(int size) {
         this.size=size;
         s=new int[size];
     }

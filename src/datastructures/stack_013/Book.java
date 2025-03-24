@@ -4,19 +4,19 @@ public class Book {
     String[] Name;
     int Point;
     static int Max;
-    Book(int cap) {
+    public Book(int cap) {
         Max=cap;
         Point=-1;
         Name=new String[Max];
     }
-    void tell() {
+    public void tell() {
         if(Point==-1) {
             System.out.println("SHELF EMPTY");
         }else {
             System.out.println("Current book on top: "+Name[Point]);
         }
     }
-    void add(String v) {
+    public void add(String v) {
         if(Point==Max-1) {
             System.out.println("SHELF FULL");
         }else {
@@ -25,7 +25,7 @@ public class Book {
             System.out.println("Added \""+v+"\" to the shelf");
         }
     }
-    void display() {
+    public void display() {
         if(Point==-1) {
             System.out.println("SHELF EMPTY");
         }else {
